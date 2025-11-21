@@ -3,7 +3,6 @@ import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 // Local images
-import ace from "../assets/aceLogo.svg";
 import udemy from "../assets/logo-udemy.svg";
 
 export default function Certifications({ items }) {
@@ -22,19 +21,11 @@ export default function Certifications({ items }) {
     () =>
       items ?? [
         {
-          title: "ACE Multicloud Network Associate Course:",
-          org: "Aviatrix ACE Academy",
-          year: "Issued Nov 2025",
-          credentialId: "MDBjf6rb97i7g",
-          image: ace,
-          link: "https://www.credly.com/badges/1a37b529-2720-44fe-a818-b847f2514315",
-        },
-        {
           title: "Learn React by Building the Simplest App  from the Scratch",
           org: "Udemy",
           year: "Issued Nov 2025",
           image: udemy,
-          link: "https://www.credly.com/badges/5de04f84-cdbb-483a-905e-e422a3d14d40/public_url",
+          link: "https://www.udemy.com/certificate/UC-48a6f1d4-9869-47c1-bcad-f89f6c215f28/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
         },
       ],
     [items]
