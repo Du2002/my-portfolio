@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 
 // Local images
 import udemy from "../assets/logo-udemy.svg";
-import avatrix from "../assets/ace-logo.png";
+import ace from "../assets/ace-logo.png";
 
 
 export default function Certifications({ items }) {
@@ -30,10 +30,10 @@ export default function Certifications({ items }) {
           link: "https://www.udemy.com/certificate/UC-48a6f1d4-9869-47c1-bcad-f89f6c215f28/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
         },
          {
-          title: "Multicloud Network Associate ",
+          title: "Multicloud Network Associate",
           org: "Aviatrix",
           year: "Issued Nov 2025",
-          image: avatrix,
+          image: ace,
           link: "https://www.credly.com/badges/99c31c20-ea31-453e-8ffe-d0c6b2f0a01a",
         },
       ],
